@@ -80,36 +80,36 @@ button.textContent = ' Get Started'
 const headerImg = document.querySelector('#cta-img')
 headerImg.setAttribute('src', siteContent['cta']['img-src'])
 
+
 let topTitle = document.querySelector('.top-content .text-content h4')
 topTitle.textContent = 'Features'
-document.querySelector('.text-content').appendChild(topTitle);
+document.querySelector('.top-content').appendChild(topTitle);
 
 let topText = document.querySelector('.top-content .text-content p')
 topText.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-document.querySelector('.text-content p').appendChild(topText);
+document.querySelector('.main-content .top-content').appendChild(topText);
 
 
-let topTitle2 = document.querySelector('.top-content .text-content h4')
+let topTitle2 = document.querySelector('h4')
 topTitle2.textContent = 'About'
-document.querySelector('.text-content h4').appendChild(topTitle2);
+document.querySelector('.top-content').appendChild(topTitle2);
 
-let topText2 = document.querySelector('.top-content .text-content p')
+let topText2 = document.querySelector('p')
 topText2.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-document.querySelector('.text-content p').appendChild(topText2);
-
+document.querySelector('.top-content').appendChild(topText2);
 
 let middleImg = document.getElementById('middle-img');
 middleImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
 
-let botTitle = document.querySelector('.bottom-content .text-content h4')
+let botTitle = document.querySelector('.text-content h4')
 botTitle.textContent = 'Services'
 document.querySelector('.bottom-content').appendChild(botTitle)
 
-let botText = document.querySelector('.bottom-content .text-content p')
+let botText = document.querySelector('.bottom-content p')
 botText.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 document.querySelector('.bottom-content').appendChild(botText)
 
-botTitle = document.querySelector('.bottom-content .text-content h4')
+botTitle = document.querySelector('.text-content h4')
 botTitle.textContent = 'Products'
 document.querySelector('.bottom-content').appendChild(botTitle)
 
@@ -117,9 +117,10 @@ botText = document.querySelector('.bottom-content .text-content p')
 botText.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 document.querySelector('.bottom-content').appendChild(botText)
 
-botTitle = document.querySelector('.bottom-content .text-content h4')
+botTitle = document.querySelector('.text-content h4')
 botTitle.textContent = 'Vision'
 document.querySelector('.bottom-content').appendChild(botTitle)
-botText = document.querySelector('.bottom-content .text-content p')
+
+botText = document.querySelector('.text-content ')
 botText.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 document.querySelector('.bottom-content').appendChild(botText)
