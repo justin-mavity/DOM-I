@@ -72,7 +72,7 @@ navLink.href = '#'
 document.querySelector('nav').appendChild(navLink)
 
 const h1 = document.querySelector('h1')
-h1.textContent = ' DOM is Awesome'
+h1.textContent = 'DOM is Awesome'
 
 const button = document.querySelector('button')
 button.textContent = ' Get Started'
@@ -121,6 +121,25 @@ botTitle = document.querySelector('.text-content h4')
 botTitle.textContent = 'Vision'
 document.querySelector('.bottom-content').appendChild(botTitle)
 
-botText = document.querySelector('.text-content ')
+botText = document.querySelector('.text-content p')
 botText.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 document.querySelector('.bottom-content').appendChild(botText)
+
+let contactTitle = document.querySelector('.contact h4')
+contactTitle.textContent = 'Contact'
+document.querySelector('.contact').appendChild(contactTitle)
+
+let contactAddress = document.querySelector('.contact p')
+contactAddress.textContent=`123 Way 456 Street\n
+Somewhere, USA`
+document.querySelector('.contact').appendChild(contactAddress)
+
+let phoneNumber = document.querySelector('.contact p')
+phoneNumber.textContent = `1(888) 888-8888`
+document.querySelector('.contact').appendChild(phoneNumber)
+
+let eMail = document.querySelector('.contact p')
+eMail.textContent = `sales@greatidea.io`
+document.querySelector('.contact').appendChild(eMail)
+
+document.querySelector('footer p').textContent = 'Copyright Great Idea! 2018'
